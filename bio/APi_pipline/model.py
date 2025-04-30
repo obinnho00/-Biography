@@ -2,8 +2,6 @@ from sqlalchemy import Column, Integer, String, Text, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-# Database configuration
-DATABASE_URL = "postgresql://isaac_arum:ElJnGAiPv3ptAJEjvZXbDnpWeOg4s7P0@dpg-ctt3gn8gph6c738fiobg-a.oregon-postgres.render.com/portfolio_database_lzl5"  
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
