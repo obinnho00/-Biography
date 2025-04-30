@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Cyber and Quantum Computing: Future Implications and Strategies",
+        "description": "This paper explores the intersection of quantum computing and cloud services, highlighting the risks of quantum attacks on encryption and strategies for securing quantum-powered environments. It covers Quantum-as-a-Service (QaaS), post-quantum cryptographic solutions, and AI-driven approaches to cybersecurity.",
+        "video": "S2S-lsxF95Q",
+        "image_path": "Quantum-Computing-05.png"
+    },
+    
+    {
+        "title": "Machine Learning",
+        "description": "I am fascinated by the potential of Machine Learning to enable systems to automatically learn and improve from experience. This area has a profound impact on various industries, from healthcare to finance. I want to explore how ML can be used to solve complex real-world problems and drive innovation across different sectors.",
+        "video": "dQw4w9WgXcQ",
+        "image_path": "ml.jpg"
+    },
+    
+    {
+        "title": "Artificial Intelligence",
+        "description": "Artificial Intelligence represents a leap towards creating machines that can think, learn, and make decisions. I am drawn to this area because of its potential to revolutionize every industry, from healthcare to transportation, and the opportunities it presents for creating intelligent systems capable of solving problems that were once thought to be unsolvable.",
+        "video": "ai-research",
+        "image_path": "logo.png"
+
+    },
+   
+    {
+        "title": "Cloud Security",
+        "description": "With the widespread adoption of cloud technologies, ensuring the security of cloud environments has never been more crucial. I am keen to research strategies for securing cloud platforms, focusing on encryption, identity management, and threat detection to ensure data confidentiality, integrity, and availability.",
+        "video": "cloud-security-research",
+        "image_path": "cloud-security.jpg"
+    }
+ 
+
+]

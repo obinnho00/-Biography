@@ -1,0 +1,83 @@
+/* --------------------- Research Section -------------------- */
+
+
+.Research {
+  text-align: center;
+  padding: 60px 0;
+  gap: 90px;
+  max-width: 80%; 
+  margin: 0; 
+  
+}
+
+.Research-title {
+  color: rgb(100, 99, 99);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.3s, color 0.3s;
+  font-weight: 800;
+  font-size: 24px;
+  border: 2px solid #424242;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+}
+
+/* Grid layout for research cards - 2 columns */
+.Research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display only 2 columns */
+  gap: 50px;
+  margin-top: 40px;
+  justify-content: center; /* Center the grid */
+}
+
+@media (max-width: 768px) {
+  .Research-grid {
+    grid-template-columns: repeat(1, 1fr); /* Stack to one column on small screens */
+  }
+}
+
+/* Research description styling */
+.Research-description {
+  font-family: 'Cursive', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds ellipsis (...) */
+}
+
+/* Video box styling */
+.video-box {
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  margin-top: 30px;
+  box-shadow:
+    0 6px 12px rgba(0, 0, 0, 0.4),
+    inset 0 0 6px rgba(0, 0, 0, 0.03);
+}
+
+
+
+/* Image inside the research card */
+.card-image {
+  width: 10%; /* Image takes up the full width */
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: block;
+  object-fit: cover; /* Ensures the image fits inside the container */
+}
+
+/* Research header inside the card */
+.Research-header {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #fff;
+}

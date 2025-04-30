@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Deploying FastAPI with Docker",
+    "description": "How I set up and containerized my FastAPI app using Docker and deployed it to the cloud.",
+    "video": "/videos/tutorial1.mp4"
+  },
+  {
+    "title": "React Routing Basics",
+    "description": "How I set up React Router for dynamic single-page applications.",
+    "video": "/videos/tutorial2.mp4"
+  },
+  {
+    "title": "PostgreSQL with Python",
+    "description": "How I set up and connected to PostgreSQL databases in Python using psycopg2.",
+    "video": "/videos/tutorial3.mp4"
+  },
+  {
+    "title": "CI/CD with GitHub Actions",
+    "description": "How I set up continuous integration and delivery pipelines using GitHub Actions for my project.",
+    "video": "/videos/tutorial4.mp4"
+  },
+  {
+    "title": "Kubernetes with Google Cloud Platform (GCP)",
+    "description": "How I set up and deployed Kubernetes clusters using Google Cloud Platform (GCP).",
+    "video": "/videos/tutorial5.mp4"
+  },
+  {
+    "title": "Setting Up Virtual Machines on GCP",
+    "description": "How I set up and configured virtual machines on Google Cloud Platform for my development needs.",
+    "video": "/videos/tutorial6.mp4"
+  },
+  {
+    "title": "Vertex AI on GCP",
+    "description": "How I used Vertex AI on Google Cloud for training and deploying machine learning models.",
+    "video": "/videos/tutorial7.mp4"
+  },
+  {
+    "title": "Automated Testing with Selenium",
+    "description": "How I set up Selenium WebDriver for automated UI testing in my applications.",
+    "video": "/videos/tutorial8.mp4"
+  },
+  {
+    "title": "Ubuntu Setup for Development",
+    "description": "How I set up Ubuntu for software development, including all necessary tools and configurations.",
+    "video": "/videos/tutorial9.mp4"
+  },
+  {
+    "title": "Docker Setup and Configuration",
+    "description": "How I set up Docker on my machine and configured containers for development.",
+    "video": "/videos/tutorial10.mp4"
+  },
+  {
+    "title": "GitHub Actions YAML File Setup",
+    "description": "How I set up my GitHub Actions workflows using YAML files for continuous integration and deployment.",
+    "video": "/videos/tutorial11.mp4"
+  },
+  {
+    "title": "Setting Up a Database on GCP",
+    "description": "How I set up and managed databases like Cloud SQL and BigQuery on Google Cloud Platform for my projects.",
+    "video": "/videos/tutorial12.mp4"
+  },
+  {
+    "title": "Setting Up FastAPI with Docker",
+    "description": "How I set up FastAPI on Google Cloud Platform, containerized with Docker, and deployed it.",
+    "video": "/videos/tutorial13.mp4"
+  },
+  {
+    "title": "Setting Up Django with Google Cloud SQL",
+    "description": "How I configured Django to connect and interact with Cloud SQL for PostgreSQL databases on Google Cloud.",
+    "video": "/videos/tutorial14.mp4"
+  }
+]

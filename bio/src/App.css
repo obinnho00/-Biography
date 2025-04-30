@@ -1,0 +1,272 @@
+/* General Page Styles */
+.main-page {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 20px;
+}
+
+/* Top Navigation Bar */
+.top-nav-name {
+  position: fixed;
+  top: 20px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+  padding: 10px 20px;
+  background-color: #181313;
+  border-radius: 55px;
+  width: fit-content;
+  z-index: 999; 
+}
+
+
+.top-nav-name a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.3s, color 0.3s;
+  font-weight: 500;
+}
+
+.top-nav-name a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Welcome Section */
+.welcome {
+  text-align: center;
+  margin-top: 60px;
+  text-align: left;
+  margin-bottom: 260;
+
+}
+
+.Name {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.introduction {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ccc;
+  margin-bottom: 20px;
+  text-align: left; 
+}
+
+.social-icon {
+  
+  
+  color: white;
+  border: none;
+  
+  margin: 10px;
+  border-radius: 55px;
+  cursor: pointer;margin-left: 10%;
+  
+  
+ 
+  
+ 
+  
+  
+}
+.News-Article,
+.Info {
+  background-color: #ffffff20;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 55px;
+  cursor: pointer;margin-left: 10%;
+  
+  
+}
+
+.News-Article:hover,
+.Info:hover {
+  
+  background-color: white;
+  color: black;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-items: center;
+  gap: 20px;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.social-icons a {
+  color: white;
+  transition: color 0.3s ease;
+  
+}
+
+.social-icons a:hover {
+  color: #00aced;
+}
+
+
+/* Reusable Sections (Research, Works, Service) */
+.Research,
+.Works,
+.Service {
+  text-align: center;
+  padding: 60px 0;
+  border-top: 1px solid #820505;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: left;
+  margin-left: 0;
+}
+
+
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* stacks on mobile */
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(18, 18, 18);
+}
+
+.about-right {
+  flex: 1;
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.Works {
+  padding: 60px 20px;
+  background-color: #111;
+  color: white;
+  text-align: center;
+  gap: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+  margin-top: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.work-card, .research-card{
+  background-color: #2f2828;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  padding: 70px;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow-y: hidden;
+  
+  
+}
+
+.work-card:hover, .research-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 0 20px rgba(56, 55, 55, 0.15);
+}
+
+
+.work-title, .Research-header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.work-description {
+  font-size: 14px;
+  color: #ccc;
+}
+.card-image {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: block;
+  
+}
+.card-images{
+  width: 100%;
+  height: 50%;
+  
+
+}
+
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .top-nav-name {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .News-Article,
+  .Info {
+    width: 80%;
+  }
+
+  .section-text {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+}
+
+

@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Advanced AI-Powered Smart Inventory Stock Management System",
+      "description": "This system leverages AI and machine learning to track and manage inventory in real-time, optimizing restocking and reducing waste through predictive analytics. It was developed using Agile methodology, focusing on iterative development cycles and continuous feedback to ensure it meets user needs. The system includes rigorous requirement gathering from stakeholders, ensuring that customer needs and preferences were prioritized throughout the development process.",
+      "image_path": "Agile-Terminology.webp"
+    },
+    {
+      "title": "Advanced Inventory Itinerary",
+      "description": "This proposal aims to develop a smart online purchase application for busy students, providing an optimized online shopping experience based on time, location, and discounts. The project follows Agile methodology, with regular sprints to gather and incorporate customer feedback. Software requirements were gathered through user interviews, ensuring that the solution meets the exact needs of its target audience while adapting to changing requirements.",
+      "image_path": "Agile-Terminology.webp"
+    },
+    {
+      "title": "Smart Inventory System",
+      "description": "An AI-powered inventory tracker that uses image recognition and IoT sensors to manage stock levels in real-time. Developed with Agile methodology, the project focused on continuous integration and regular feedback loops. Customer needs were gathered through surveys and feedback from inventory managers, ensuring the system addresses key pain points like stockouts and overstocking.",
+      "image_path": "Agile-Terminology.webp"
+    },
+  
+    {
+      "title": "Personalized Movie Recommendation System",
+      "description": "A recommendation engine that uses machine learning to suggest movies based on a user’s viewing history and preferences. Developed with Agile principles, the system incorporated regular feedback loops from users to continuously improve recommendations. Requirements were gathered through user surveys and focus groups to tailor the recommendations based on customer preferences.",
+      "image_path": "Agile-Terminology.webp"
+    }
+  ]
+  

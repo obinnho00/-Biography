@@ -1,0 +1,20 @@
+[
+    {
+      "header": "Portfolio ",
+      "project_type": "Web Application",
+      "description": "This website was built using React and FastAPI to showcase all my academic and professional projects.",
+      "tools_used": "React, FastAPI, Docker, GCP",
+      "video_content": "portfolio.mp4",
+      "github_links": ["https://github.com/obinnho00"]
+    },
+ 
+    {
+        "header": "Web Application",
+        "project_type": "Web Application",
+        "description": "This portfolio web application is designed to showcase my projects, repositories, and personal details. It highlights my skills, accomplishments, and experiences in an interactive and visually appealing manner. The portfolio dynamically displays project data, including repository details, commit information, and rendered README previews.",
+        "tools_used": "HTML5, CSS3, JavaScript, Django, Markdown2, GitHub API",
+        "video_content": "portfolio.mp4",
+        "github_links": ["https://github.com/obinnho00/Web-Api", "https://web-api-j92c.onrender.com/"]
+      }
+      
+  ]
